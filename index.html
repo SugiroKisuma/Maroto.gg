@@ -1,86 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>7Maroto</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-    }
-    
-    h1 {
-      margin: 0;
-    }
-    
-    nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      background-color: #f2f2f2;
-      overflow: hidden;
-    }
-    nav li {
-      float: left;
-    }
-    
-    nav li a {
-      display: block;
-      color: #333;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-    
-    nav li a:hover {
-      background-color: #ddd;
-    }
-    
-    main {
-      padding: 20px;
-    }
-    
-    section {
-      margin-bottom: 20px;
-    }
-    
-    h2 {
-      color: #333;
-    }
-    
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maroto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>7Maroto</h1>
-  </header>
-  
-  <nav>
-    <ul>
-      <li><a href="index.html">Início</a></li>
-      <li><a href="comandos.html">Comandos</a></li>
-      <li><a href="termos.html">Termos</a></li>
-    </ul>
-  </nav>
-  
-  <main>
-    <section id="home">
-      <h2>Bem-vindo ao site do 7Maroto</h2>
-      <p>Este é um site dedicado ao nosso bot incrível, que tem sistema de auto cargo, auto mod (Moderador de comunidade pra anti spam, flood e etc);
-      <p>Além de ser um excelente bot de música que suporta maioria ou todas as plataformas de música e com um ótimo servidor dedicado, assim o bot não trava ao usar outros comandos enquanto toca músicas/playlist<p></p>
-      <a/ href="https://discord.com/api/oauth2/authorize?client_id=1034060923356327986&permissions=8&scope=applications.commands%20bot">Clique aqui para adicionar o 7Maroto no teu servidor</a>
-    </section>
+
+    <header class="header__maroto">
+        <div class="header__maroto__menu">
+            <a href="index.html" class="header__maroto__menu__botao">Ínicio</a>
+            <a href="commands.html" class="header__maroto__menu__botao">Comandos</a>
+            <a href="termos.html" class="header__maroto__menu__botao">Termos</a>
+        </div>
+    </header>
+    <main class="principal__maroto">
+        <div class="principal__maroto__pagina">
+        <h1 class="principal__maroto__titulo">
+            Maroto inovando seu servidor <strong class="principal__maroto__titulo__destaque">com funcionalidades exclusivas!</strong>
+        </h1>
+    
+        <p class="principal__maroto__texto">
+            Este é um site dedicado ao nosso bot incrível. Maroto DJ de muitos servidores grandes atualmente.
+            Além de ser um excelente bot de música suportando variadas plataformas de música
+        </p>
+        <div class="principal__maroto__server__botao">
+        <a href="https://discord.com/api/oauth2/authorize?client_id=1034060923356327986&permissions=8&scope=applications.commands%20bot" target="_blank" class="principal__maroto__server">Adicionar</a>
+        <a href="https://discord.com/users/397487089245224970" target="_blank" class="principal__maroto__server">Dono</a>
+    </div>
+    </div>
+    </div>
+        <img src="https://cdn.discordapp.com/attachments/1065104223710232618/1117933983343321220/5ab3737b1e2f45644dfa21e5b4a7d58c.png" style="pointer-events: none;" alt="7maroto" class="principal__maroto__imagem">
+    </main>
+
+    <footer class="footer__maroto">
+
+    </footer>
+</body>
+</html>
