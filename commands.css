@@ -1,127 +1,40 @@
-@import url('https://fonts.googleapis.com/css?family=Krona One');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maroto</title>
+    <link rel="stylesheet" href="./comandos.css">
+</head>
+<body>
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: black;
-    height: 100%;
-}
-
-.header__maroto {
-    width: 100%;
-    height: 100px;
-    border-radius: 16px;
-    border-top-right-radius: 0%;
-    border-top-left-radius: 0%;
-    background-color: #2c2f33;
-    font-weight: bolder;
-}
-
-
-
-
-.principal__maroto__titulo__destaque {
-    color: #7289da;
-}
-
-.principal__maroto {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 10%;
-}
-
-.principal__maroto__pagina {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-    width: 450px;
-    height: 700px;
-    border-radius: 16px;
+    <header class="header__maroto">
+        <div class="header__maroto__menu">
+            <a href="index.html" class="header__maroto__menu__botao">Ínicio</a>
+            <a href="commands.html" class="header__maroto__menu__botao">Comandos</a>
+            <a href="termos.html" class="header__maroto__menu__botao">Termos</a>
+        </div>
+    </header>
+    <main class="principal__maroto">
+        <div class="principal__maroto__pagina">
+        <h1 class="principal__maroto__titulo">
+            Comandos7
+        </h1>
+        <p class="principal__maroto__texto" style="color: #7289da;">Prefixo: 7 ou slash command</p>
+        <div class="principal__maroto__pagina__itens">
+        <ul class="principal__maroto__texto">
+            <li><strong>Comandos de Música</strong><br> 7play <br>7stop <br>7pause<br>7resume <br>7loop <br>7nightcore <br>7queue <br>7shuffle <br>7skip <br>7volume <br> <br><br><strong>• Comandos extras</strong> <br>7avatar <br>7gav <br>7banner <br>7userinfo <br>7autorole <br>7ping <br>7antibots <br>7proibidocmd <br>7cmdchat <br></li>
+        </ul>
+    </div>
+    </div>
     
-    background-color: rgb(40, 41, 41);
-}
+    </div>
+    <iframe width="630" height="315" style="border-radius: 16px;" src="https://www.youtube.com/embed/lWV5s0ji7Ug" ></iframe>
+    </main>
 
-.principal__maroto__titulo {
-    font-family: 'Krona One';
-    color: #F6F6F6;
-    align-items: center;
-padding-top: 15px;
-}
-
-
-.principal__maroto__texto {
-    display: flex;
-    color: #424549;
-    font-family: 'Montserrat';
-    
-}
-
-.principal__maroto__texto {
-    display: flex;
-    color: #F6F6F6;
-    font-family: 'Krona One';
-    gap: 16px;
-}
-
-.principal__maroto__server__botao {
-    display: flex;
-    justify-content: space-around;
-    gap: 153px;
-}
-
-.principal__maroto__server{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    width: 280px;
-    height: 79px;
-    border-radius: 16px;
-    flex-direction: row;
-    text-decoration: none;
-    font-size: 24px;
-    font-family: 'Montserrat';
-
-    color: azure;
-    background-color: #7289da;
-}
-
-
-.header__maroto__menu__botao {
-    font-size: 24px;
-    font-family: 'Montserrat';
-    color: #F6F6F6;
-    text-decoration: none;
-}
-
-.header__maroto__menu {
-    display: flex;
-    font-size: 24px;
-    font-family: 'Montserrat';
-    color: #F6F6F6;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 3%;
-    padding: 1.7%;
-    justify-content: center;
-    align-items: center;
-    gap: 33px;
-    text-decoration: none;
-}
-
-.footer__maroto {
-    display: flex;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    font-family: 'Montserrat';
-    height: 60px;
-    width: 100%;
-}
+    <footer class="footer__maroto">
+        <p>Desenvolvido por ⁷sugirokisuma.𝘱𝘺</p>
+    </footer>
+</body>
+</html>
